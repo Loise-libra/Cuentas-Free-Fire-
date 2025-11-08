@@ -109,11 +109,10 @@ document.addEventListener("DOMContentLoaded", () => {
         .href;
 
       let mensajeBase = `¡Hola Papus! 🔥 Estoy interesado en esta cuenta:\n\n`;
-      mensajeBase += `🆔 *ID:* ${cuenta.id}\n`;
+        mensajeBase += `🖼️ *Ver Referencia:* ${urlMediaAbsoluta}\n\n`;
       mensajeBase += `👤 *Nombre:* ${cuenta.nombre}\n`;
       mensajeBase += `💵 *Precio:* S/ ${cuenta.precio.soles}\n\n`;
       mensajeBase += `*Detalles:*\n${descripcionParaWhatsApp}\n\n`;
-      mensajeBase += `🖼️ *Ver Referencia:* ${urlMediaAbsoluta}\n\n`;
       mensajeBase += `¿Sigue disponible?`;
 
       const mensajeCodificado = encodeURIComponent(mensajeBase);
