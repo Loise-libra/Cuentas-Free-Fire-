@@ -1,0 +1,74 @@
+[
+  {
+    "id": "c001",
+    "nombre": "Cuenta Mixta Veterana (Anubis)",
+    "imagen": "asset/imagenes/yo.jpeg",
+    "video": null,
+    "descripcion": [
+      { "icon": "pase", "text": "Pase Anubis y más veteranos." },
+      { "icon": "nivel", "text": "Tiene 512 pechos, nivel 72 región sur 🫶🏻" },
+      { "icon": "colaboracion", "text": "Muchas Colaboraciones, eventos e incubadoras." },
+      { "icon": "evolutiva", "text": "7 evolutivas desbloqueadas 🧐" },
+      { "icon": "general", "text": "Prime nivel casi al 6💸, placa 6años y más." },
+      { "icon": "mascota", "text": "Tiene la mascota más exclusiva poring." }
+    ],
+    "precio": {
+      "soles": 299,
+      "dolares": 88
+    },
+    "infoAdicional": "Video antiguo, ahora tiene más cosas."
+  },
+  {
+    "id": "c002",
+    "destacada": true,
+    "nombre": "Cuenta Sakura Nivel 70",
+    "imagen": "asset/imagenes/person.jpg",
+    "video": "asset/vidio/perro.mp4",
+    "descripcion": [
+      { "icon": "pase", "text": "Pase Sakura y Hip Hop." },
+      { "icon": "nivel", "text": "Nivel 70, región EEUU." },
+      { "icon": "evolutiva", "text": "Todas las armas evolutivas al máximo." },
+      { "icon": "arma", "text": "Incubadora de MP40 completa." },
+      { "icon": "traje", "text": "Incluye varios trajes de eventos." }
+    ],
+    "precio": {
+      "soles": 450,
+      "dolares": 120
+    },
+    "infoAdicional": "Entrega inmediata."
+  },
+  {
+    "id": "c003",
+    "nombre": "Cuenta Nivel 65 Económica",
+    "imagen": "asset/imagenes/hola.jpg",
+    "video": null,
+    "descripcion": [
+      { "icon": "pase", "text": "Varios pases élite." },
+      { "icon": "general", "text": "Buena para empezar a competir." },
+      { "icon": "nivel", "text": "Region LATAM." }
+    ],
+    "precio": {
+      "soles": 100,
+      "dolares": 30
+    },
+    "infoAdicional": null
+  },
+   {
+    "id": "c003",
+    "nombre": "Cuenta Nivel 68 Económica",
+    "imagen": "asset/imagenes/perfilAra.jpg",
+    "video": null,
+    "descripcion": [
+      { "icon": "pase", "text": "Varios pases élite." },
+       { "icon": "pase", "text": "Varios pases de nivel." },
+      { "icon": "general", "text": "Buena para empezar a competir." },
+      { "icon": "nivel", "text": "Region LATAM." },
+      { "icon": "arma", "text": "Todas la evolutivas al maximo." }
+    ],
+    "precio": {
+      "soles": 200,
+      "dolares": 30
+    },
+    "infoAdicional": null
+  }
+]

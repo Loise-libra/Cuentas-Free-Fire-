@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Venta de Cuentas de Free Fire</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+
+    <header class="header">
+        <h1>💎 Venta de Cuentas de Free Fire 💎</h1>
+        <p>Las mejores cuentas veteranas al mejor precio.</p>
+    </header>
+
+    <div class="controles-busqueda">
+        <input type="search" id="search-bar" placeholder="Buscar por nombre...">
+        <select id="sort-select">
+            <option value="default">Ordenar por...</option>
+            <option value="price-asc">Precio: Más barato</option>
+            <option value="price-desc">Precio: Más caro</option>
+        </select>
+    </div>
+
+    <main>
+        <div id="catalogo-cuentas" class="catalogo-container">
+            <div class="loader">Cargando cuentas...</div>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <p>Contacto Directo por WhatsApp | 2025</p>
+    </footer>
+
+    <div id="modal-visor" class="modal-oculto">
+        <span id="modal-cerrar">&times;</span>
+        <div id="modal-contenido"></div>
+    </div>
+
+    <script src="scrip/app.js"></script>
+</body>
+</html>
